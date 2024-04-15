@@ -1,0 +1,310 @@
+.images0 a{
+    background: #ff0000;
+    padding: 10px ;
+    font-weight: bold;
+    color: #000000;
+    display: inline-block;
+    margin: 6px 680px;
+    border-radius: 10px;
+}
+.images1{
+    text-align:left;
+}
+.vinod1{
+    width:800px;
+    padding: 1px ;
+    margin: 110px 345px;
+    border: 1px solid black;
+    }
+
+.images2 h2{
+    margin: 20px 440px;
+    white-space:pre;
+    text-decoration:underline;
+}
+.images0 h2{
+    margin: -40px 200px;
+    text-align:center;
+white-space:pre;
+text-decoration:underline;
+}
+.vinod2{
+    width: 750px;
+    height:600px;
+    padding: 1px ;
+    margin: 1px 385px;
+    border: 1px solid black;
+    }
+
+.images3{
+        text-align:center;
+        margin: 10px -74px;
+}
+.images3 h2{
+    margin: 124px 640px;
+    white-space:pre;
+    text-decoration:underline;
+}
+.vinod3{
+    width:800px;
+    padding: 1px ;
+    margin: -120px 250px;
+    border: 1px solid black;
+    }
+
+.images4{
+    text-align:center;
+    margin: 10px -74px;
+}
+.images4 h2{
+    margin: 50px 650px;
+    white-space:pre;
+    text-decoration:underline;
+}
+.vinod4{
+    width:800px;
+    margin: -40px 220px;
+    border: 1px solid black;
+    }
+
+.images5{
+    text-align:center;
+    margin:10px -74px;
+}
+.images5 h2{
+    margin: 100px 650px;
+    white-space:pre;
+    text-decoration:underline;
+}
+.vinod5{
+    width:500px;
+    padding: 1px;
+    margin: -80px 4px;
+    border: 1px solid black;
+    }
+
+.images6{
+    text-align:center;
+    margin:10px -74px;
+}
+.images6 h2{
+    margin: 180px 590px;
+    white-space:pre;
+    text-decoration:underline;
+}
+.vinod6{
+    width:600px;
+    padding: 1px ;
+    margin: -160px 40px;
+    border: 1px solid black;
+    }
+
+.images7{
+        text-align:center;
+        margin:10px -74px;
+    }
+.images7 h2{
+    margin: 300px 700px;
+    white-space:pre;
+    text-decoration:underline;
+}
+.vinod7{
+    width:600px;
+    padding: 1px ;
+    margin: -280px 4px;
+    border: 1px solid black;
+    }
+
+.images8{
+        text-align:center;
+        margin:10px -74px;
+    }
+ .images8 h2{
+        margin : 300px 580px;
+        white-space:pre;
+        text-decoration:underline;
+        padding: 10px ;
+    }
+ .vinod8{
+        width:850px;
+        padding: 1px ;
+        margin: -250px 4px;
+        border: 1px solid black;
+        }
+
+.images9{
+        text-align:center;
+        margin:10px -74px;
+    }
+ .images9 h2{
+        margin: 270px 480px;
+        padding: 1px;
+        white-space:pre;
+        text-decoration:underline;
+    }
+ .vinod9{
+        width:850px;
+        padding: 1px;
+        margin: -250px 4px;
+        border: 1px solid black;
+        }
+
+.images10{
+    text-align:left;
+    margin:10px -84px;
+    padding:500px;
+    }
+.images10 h2{
+        margin: 60px 160px;
+        padding: 1px;
+        white-space:pre;
+        text-decoration:underline;
+    }
+    .vinod10{
+        width:800px;
+        padding: 1px;
+        margin: -10px 4px;
+        border: 1px solid black;
+        }
+
+.vinod15{
+    width: 450px;
+    height:600px;
+    margin: 50px 80px;
+    border: 1px solid black;
+    }
+
+ .vinod16{
+        width: 450px;
+        height:600px;
+        margin: 50px 4px;
+        border: 1px solid black;
+        }
+ .images0{
+    text-align:left;
+    margin:10px -84px;
+    padding:500px;
+}
+
+#outer-box{
+    width: 1400px;
+    height: 15100px;
+    background-color:yellow;
+    display:flex;
+    flex-wrap:wrap;
+    gap:0px;
+}
+
+#box1{
+    width: 1300px;
+    height:780px;
+    margin: 21px 60px;
+    color: red;
+    padding: 4px;
+}
+#box2{
+    width: 1300px;
+    height:770px;
+    margin: 21px 60px;
+    color: red;
+    padding: 4px;
+}
+#box3{
+    width: 1500px;
+    height:600px;
+    margin: 21px 60px;
+    color: red;
+    padding: 4px;
+}
+#box4{
+    width: 1500px;
+    height:580px;
+    margin: 21px 60px;
+    color: red;
+    padding: 4px;
+}
+#box5{
+    width: 1500px;
+    height:940px;
+    margin: 21px 60px;
+    color: red;
+    padding: 4px;
+}
+#box6{
+    width: 1500px;
+    height:580px;
+    margin: 21px 60px;
+    color: red;
+    padding: 4px;
+}
+#box7{
+    width: 1500px;
+    height:580px;
+    margin: 21px 60px;
+    color: red;
+    padding: 4px;
+}
+#box8{
+    width: 1500px;
+    height:710px;
+    margin: 21px 60px;
+    color: red;
+    padding: 4px;
+}
+#box9{
+    width: 1500px;
+    height:980px;
+    margin: 21px 60px;
+    color: red;
+    padding: 4px;
+}
+#box10{
+    width: 1500px;
+    height:590px;
+    margin: 21px 60px;
+    color: red;
+    padding: 4px;
+}
+#box11{
+    width: 1500px;
+    height:680px;
+    margin: 21px 60px;
+    color: red;
+    padding: 4px;
+}
+.images1 h2{
+    margin: -100px 380px;
+    white-space:pre;
+    text-decoration:underline;
+}
+.certivicates{
+    position:relative;
+    width:190%;
+    height:100vh;
+}
+
+.certivicates h1{
+    margin: 43px 630px;
+    color: #fc3903;
+    display: flex;
+    padding: 0px;
+    width: 30%;
+    justify-content: space-between;
+}
+.certivicates h2{
+    margin: 2rem auto 0 auto;
+    color: blue;
+    display: flex;
+    padding: 1px;
+    width: 40%;
+    justify-content: space-between;
+}
+
+
+.container h2{
+    margin: -100px 380px;
+    white-space:pre;
+    text-decoration:underline;
+}
+
+

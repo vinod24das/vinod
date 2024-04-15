@@ -1,0 +1,31 @@
+<div id="box1"class="box">
+                <div class="images0" >
+                    <h2>INDUSTRIAL AUTOMATION CONTROL SYSTEM PROGRAMMING (PLC PROGRAMMING)</h2>
+                    <img src="PIC/autopic1.png"class="vinod15">
+                    <img src="PIC/autopic.png"class="vinod16">
+                </div>
+            </div>
+
+            <div class="images1" >
+                <h2>MYRESKILLS IOT PROGRAM INDUSTRIAL REVOLUTION (I.R 4.0)</h2>
+                <img src="PIC/IOT.jpg"class="vinod1">
+            </div>
+
+            <div class="images2" >
+                <h2>INDUSTRIAL ROBOT INTRODUCTION (IRI) CERTIFICATE</h2>
+                <img src="PIC/robot.png"class="vinod2">
+            </div>
+
+            <div class="images3" >
+                <h2>DIPLOMA IN MECHANICAL</h2>
+                <div id="box4"class="box">
+                    <img src="PIC/diploma.png"class="vinod3">
+                </div>
+            </div>
+
+            <div class="images4" >
+                <h2>MAINTENANCE MANAGEMENT</h2>
+                <div id="box5"class="box">
+                    <img src="PIC/maintainence.png"class="vinod4">
+                </div>
+            </div>

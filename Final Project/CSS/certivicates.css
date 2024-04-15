@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    justify-content: space_between;
+}
+
+.certivicates{
+    position:relative;
+    width:87%;
+    height:100vh;
+}
+.skills1 a{
+    background: #ff0000;
+    padding: 10px ;
+    text_decoration: none;
+    font-weight: bold;
+    color: #000000;
+    display: inline-block;
+    margin: 40px 597px;
+    border-radius: 4px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: left;
+    justify-content: space_between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 21px 51px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: blue;
+}
+
+
+
+.certivicates1 h1{
+    margin: 00px 520px;
+    color: #fc3903;
+    padding: 31px;
+}
+
+
+
+.container h2{
+    margin: 0px 460px;
+    text-decoration:underline;
+    color: blue;
+
+    padding: 10px;
+
+}
+.container {
+    padding: 100px;
+
+}
+embed{
+    margin: 0px 190px;
+    width:800px;
+    height: 680px;
+
+}
+
+
+.container1 h2{
+    margin: 0px 460px;
+    text-decoration:underline;
+    color: blue;
+
+    padding: 10px;
+
+}
+.container1 {
+    padding: 100px;
+
+}
+
+
+
+
+
+.container2 h2{
+    margin: 0px 410px;
+    text-decoration:underline;
+    color: blue;
+
+    padding: 10px;
+
+}
+.container2 {
+    padding: 100px;
+
+}
+
+
+
+.container3 h2{
+    margin: 0px 310px;
+    text-decoration:underline;
+    color: blue;
+
+    padding: 10px;
+
+}
+.container3 {
+    padding: 100px;
+
+}
+
+
+
+.images0 h2{
+    margin: 00px 90px;
+    text-decoration:underline;
+    color: blue;
+    padding: 10px;
+    width:1200px;
+}
+.images0 {
+    padding: 100px;
+}
+.vinod15{
+    width: 450px;
+    height:600px;
+    margin: 0px 120px;
+
+    padding: -50px;
+}
+
+.vinod16{
+        width: 450px;
+        height:600px;
+        margin: 0px -100px;
+
+        padding: -50px;
+}
+
+
+
+
+
+
+
+.images1 h2{
+        margin: 00px 220px;
+        text-decoration:underline;
+        color: blue;
+        padding: 10px;
+        width:1200px;
+        }
+.images1 {
+        padding: 100px;
+}
+.vinod1{
+        width: 900px;
+        height:600px;
+        margin: 0px 140px;
+        padding: 0px;
+}
+
+
+
+
+
+
+.images2 h2{
+    margin: 00px 240px;
+    text-decoration:underline;
+    color: blue;
+    padding: 10px;
+    width:1200px;
+    }
+.images2 {
+    padding: 100px;
+}
+.vinod2{
+    width: 800px;
+    height:600px;
+    margin: 0px 190px;
+    padding: 0px;
+}
+
+
+
+.images3 h2{
+    margin: 00px 440px;
+    text-decoration:underline;
+    color: blue;
+    padding: 10px;
+    width:1200px;
+    }
+.images3 {
+    padding: 100px;
+}
+.vinod3{
+    width: 800px;
+    height:500px;
+    margin: 0px 190px;
+    padding: 0px;
+}
+
+
+
+.images4 h2{
+    margin: 00px 400px;
+    text-decoration:underline;
+    color: blue;
+    padding: 10px;
+    width:1200px;
+    }
+.images4 {
+    padding: 100px;
+}
+.vinod4{
+    width: 800px;
+    height:500px;
+    margin: 0px 190px;
+    padding: 0px;
+}
+
+
+.images5 h2{
+    margin: 00px 440px;
+    text-decoration:underline;
+    color: blue;
+    padding: 10px;
+    width:1200px;
+    }
+.images5 {
+    padding: 100px;
+}
+.vinod5{
+    width: 500px;
+    height:700px;
+    margin: 0px 330px;
+    padding: 0px;
+}
+
+
+.images6 h2{
+    margin: 00px 440px;
+    text-decoration:underline;
+    color: blue;
+    padding: 10px;
+    width:1200px;
+    }
+.images6 {
+    padding: 100px;
+}
+.vinod6{
+    width: 500px;
+    height:700px;
+    margin: 0px 330px;
+    padding: 0px;
+}
+
+.images7 h2{
+    margin: 00px 440px;
+    text-decoration:underline;
+    color: blue;
+    padding: 10px;
+    width:1200px;
+    }
+.images7 {
+    padding: 100px;
+}
+.vinod7{
+    width: 500px;
+    height:700px;
+    margin: 0px 330px;
+    padding: 0px;
+}
+
+
+.images8 h2{
+    margin: 00px 390px;
+    text-decoration:underline;
+    color: blue;
+    padding: 10px;
+    width:1200px;
+    }
+.images8 {
+    padding: 100px;
+}
+.vinod8{
+    width: 500px;
+    height:700px;
+    margin: 0px 330px;
+    padding: 0px;
+}
+
+.images9 h2{
+    margin: 00px 345px;
+    text-decoration:underline;
+    color: blue;
+    padding: 10px;
+    width:1200px;
+    }
+.images9 {
+    padding: 100px;
+}
+.vinod9{
+    width: 500px;
+    height:700px;
+    margin: 0px 330px;
+    padding: 0px;
+}
+
+
+.images10 h2{
+    margin: 00px 400px;
+    text-decoration:underline;
+    color: blue;
+    padding: 10px;
+    width:1200px;
+    }
+.images10 {
+    padding: 100px;
+}
+.vinod10{
+    width: 800px;
+    height:500px;
+    margin: 0px 190px;
+    padding: 0px;
+}

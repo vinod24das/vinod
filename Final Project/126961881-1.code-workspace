@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "vinod",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"gitdoc.enabled": true,
+		"files.associations": {
+			"ctype.h": "c",
+			"cstddef": "c",
+			"string.h": "c"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "vinod"
+	}
+}
