@@ -33,5 +33,9 @@ nav ul li{
 nav ul li a{
     color: white;
     font-size: 17px;
-    
+
+}
+a.action,a:hover{
+    Background: light blue;
+    transition: .5s;
 }
