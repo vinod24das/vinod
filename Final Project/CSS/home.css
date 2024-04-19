@@ -37,7 +37,7 @@ nav ul li a{
     border_radius: 3px;
 }
 a.action,a:hover{
-    Background: pink;
+
     transition: .5s;
 }
 .chechkbtn{
