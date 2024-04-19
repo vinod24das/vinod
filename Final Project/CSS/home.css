@@ -92,5 +92,7 @@ a.action,a:hover{
     }
 }
 section{
-    background: white;
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 90px);
 }
