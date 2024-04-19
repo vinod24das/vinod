@@ -40,7 +40,7 @@ a.active,a:hover{
 background: #1b9bff;
     transition: .5s;
 }
-.chechkbtn{
+.checkbtn{
     font-size: 30px;
     color: white;
     float: right;
@@ -63,7 +63,7 @@ background: #1b9bff;
     }
 }
 @media (max-width: 858px){
-    .chechkbtn{
+    .checkbtn{
         display: block;
     }
     ul{
