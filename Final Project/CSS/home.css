@@ -87,5 +87,7 @@ a.action,a:hover{
         background: none;
         color: green;
     }
-    #check:checked `
+    #check:checked ~ ul{
+        left: 0;
+    }
 }
