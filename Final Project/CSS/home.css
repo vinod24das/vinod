@@ -26,5 +26,6 @@ nav ul{
 
 }
 nav ul li{
-    
+    display: inline-block;
+    line-height: 80px;
 }
