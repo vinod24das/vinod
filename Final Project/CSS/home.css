@@ -36,6 +36,6 @@ nav ul li a{
 
 }
 a.action,a:hover{
-    Background: light blue;
+    Background: pink;
     transition: .5s;
 }
