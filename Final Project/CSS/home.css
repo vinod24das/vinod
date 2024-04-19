@@ -33,9 +33,27 @@ nav ul li{
 nav ul li a{
     color: white;
     font-size: 17px;
-
+    padding: 7px 13px;
+    border_radius: 3px;
 }
 a.action,a:hover{
     Background: pink;
     transition: .5s;
+}
+.chechkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+
+}
+@media (max-width: 952px){
+    font-size: 30px;
+    padding-left: 50px;
 }
