@@ -2,20 +2,19 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="EI=edge" />
         <title>Personal Website</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet"href="Final Project/CSS/home.css">
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     </head>
     <body>
-            <nav>
-                <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">
-                    <i class="fas fa-bars"></i>
-                </label>
-                <label class="logo">VINOD 1987.com</label>
-                <ul>
-                    <li><a class="active" href="index.html">HOME</a></li>
+        <header>
+            <div class="navbar">
+                <div class="logo"><a href="#">vinod1987.com</ViNoD></a></div>
+                <ul class="link">
+                    <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                     <li><a href="expriences.html">EXPERIENCES</a></li>
                     <li><a href="projects.html">PROJECTS</a></li>
@@ -23,21 +22,50 @@
                     <li><a href="certivicates.html">CERTIFICATES</a></li>
                     <li><a href="hireme.html">HIRE ME</a></li>
                 </ul>
-            </nav>
-            <section>
-            <div class="detel">
-                <h1>I'm Bhaktivinode Das <span>@Vinod</span></h1>
-                <p>This is my offcial portfolio websites to showes all
-                    <br>Details and work experinces in engineering feild
-                    <div class="images" >
-                        <img src="Final Project/PIC/ownpic.png"class="vinod">
-
-                    </div>
-                </p>
-                <a href="vinod_resume.pdf" download class="btn btn--download">DOWNLOAD CV</a>
-            </div>
-        </section>
+                <a href="#" class="action_btn">DOWNLOAD CV</a>
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
                 </div>
+            </div>
+
+            <div class="dropdown_menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="expriences.html">EXPERIENCES</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="skills.html">SKILLS</a></li>
+                <li><a href="certivicates.html">CERTIFICATES</a></li>
+                <li><a href="hireme.html">HIRE ME</a></li>
+                <li><a href="#" class="action_btn">DOWNLOAD CV</a></li> 
+            </div>
+        </header>
+        <main>
+            <section id="hero">
+                <h1>I'm Bhaktivinode Das <span>@Vinod</span></h1>
+                <p>
+                    This is my offcial portfolio websites to showes all <br />Details and work experiences in engineering feild
+                </p>
+            </section>
+            <div class="images" >
+                <img src="Final Project/PIC/ownpic.png"class="vinod">
+
+            </div>
+        </main>
+
+        <script>
+            const toggleBtn = document.querySelector('.toggle_btn')
+            const toggleBtnIcon = document.querySelector('.toggle_btn i')
+            const dropdownmenu = document.querySelector('.dropdown_menu')
+
+            toggleBtn.onclick = function () {
+                dropdownmenu.classList.toggle('open')
+                const isOpen = dropdownmenu.classList.contains('open')
+
+                toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+            }
+        </script>
     </body>
 
 </html>
