@@ -131,12 +131,9 @@ span{
     color: black;
 }
 .images {
-    height:510px;
-    width:500px;
+    height:410px;
+    width:400px;
     display: flex;
-    align-items: right;
-    position:absolute;
-    margin: -560px 800px;
 }
 
 
@@ -158,4 +155,33 @@ span{
         width: unset;
 
     }
+}
+#outer-box{
+    color: white;
+    width: 1600px;
+    height: 500px;
+    background-color: white;
+    display:flex;
+    flex-wrap:wrap;
+    gap:0px;
+}
+#box1{
+    width: 600px;
+    margin: 6px 60px;
+    background-color: white;
+    padding: 1px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space_between;
+  
+}
+#box2{
+    width: 500px;
+    background-color: white;
+    padding: 6px;
+align-items: center;
+    display:flex;
+    flex-wrap:wrap;
+    margin: 21px 60px;
+  
 }
