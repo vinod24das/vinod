@@ -4,13 +4,116 @@
     box-sizing: border-box;
     font-family: 'open sans' sans-serif;
 }
+
+
+
+
 body{
     height: 100vh;
     background-color: white;
     background-image: url('https://unsplash.com/photos/the-space-shuttle-is-flying-over-the-earth-WmbePYToF6c?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash');
     background-size: cover;
     background-position: center;
+
 }
+.vinod{
+    float:left;
+    width: 500px;
+    height: 600px;
+    unicode-bidi: isolate;
+    padding: 60px;
+
+}
+
+main{
+    width: 1600px;
+    height: 700px;
+    padding: 10px;
+}
+.img-info{
+float: right;
+align-items: center;
+justify-content: center;
+padding-top: 240px;
+padding-right: 250px;
+position: relative;
+justify-content: space-between;
+margin: 0 auto;
+text-decoration: none;
+
+    
+}
+.img-info h1{    
+    font-size: 36px;
+        color: rgb(175, 202, 19);
+        width: 100%;   
+        width: 600px;  
+        position: relative;
+        justify-content: space-between;
+   
+
+
+
+}
+.img-info p{
+        font-size: 26px;
+        color: rgb(144, 207, 42);
+        width: 100%;
+        width: 800px; 
+        position: relative;
+        justify-content: space-between;
+
+
+}
+
+
+
+
+
+
+
+@media(max-width: 768px){
+    .vinod{
+        float:left;
+        width: 500px;
+        height: 600px;
+        unicode-bidi: isolate;
+        padding: 60px;
+    }
+    
+    main{
+        width: 1600px;
+        height: 700px;
+        padding: 10px;
+    }
+    .img-info{
+    float: right;
+    align-items: center;
+    justify-content: center;
+    padding-top: 240px;
+    padding-right: 250px;
+    
+        
+    }
+    .img-info h1{    
+        font-size: 36px;
+            color: rgb(202, 19, 19);
+            width: 100%;   
+            width: 600px;  
+    
+    
+    }
+    .img-info p{
+            font-size: 26px;
+            color: rgb(177, 13, 35);
+            width: 100%;
+            width: 800px; 
+    
+    } 
+}
+
+
+
 
 li{
     list-style: none;
@@ -103,39 +206,6 @@ Header{
     justify-content: center;
 }
 
-section#hero{
-    height: calc(100vh - 160px);
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    padding-left: 120px;
-
-}
-
-#hero h1{
-    font-size: 42px;
-    color: rgb(71, 98, 218);
-}
-span{
-    color: #023d6d;
-}
-
-#hero hr{
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 1 rem;
-}
-#hero p{
-    font-size: 28px;
-    color: black;
-}
-.images {
-    height:410px;
-    width:400px;
-    display: flex;
-}
-
 
 @media(max-width: 992px) {
     .navbar .link,
@@ -148,40 +218,95 @@ span{
     .dropdown_menu{
         display: block;
     }
+
+    .img-info{
+        float: right;
+        align-items: center;
+        justify-content: center;
+        padding-top: 200px;
+        padding-right: 250px;
+        
+            
+        }
+        .images{
+            padding-top: 24px;  
+            width: 20%;
+            float: left;
+            }
+        main{
+            width: 1200px;
+            height: 550px;
+            padding: 10px;
+        }
+        .vinod{
+            float:left;
+            width: 400px;
+            height: 500px;
+            unicode-bidi: isolate;
+
+        }
+        .img-info h1{
+            width: 100%;   
+            width: 400px; 
+            font-size: 30px;
+            color: rgb(73, 42, 207);
+        }
+        .img-info p{
+            width: 100%;   
+            width: 550px; 
+            font-size: 28px;
+            color: rgb(73, 42, 207);
+
+        }
 }
 @media(max-width: 576px){
     .dropdown_menu{
         left: 2rem;
         width: unset;
+    }
+
+    .img-info{
+        float: right;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    padding-right: 250px;
+    }
+    .images{
+        padding-top: 24px;  
+        width: 10%;
+        float: left;
+        }
+    .img-info h1{
+        width: 100%;   
+        width: 300px; 
+        font-size: 26px;
+        color: aqua;
+
+}
+
+.img-info p{
+    width: 100%;
+        width: 400px; 
+    font-size: 24px;
+    color: black;
+
+}
+.vinod{
+    float:left;
+    width: 300px;
+    height: 400px;
+    unicode-bidi: isolate;
 
     }
+    main{
+        width: 1000px;
+        height: 400px;
+        padding: 10px;
+    }
 }
-#outer-box{
-    color: white;
-    width: 1600px;
-    height: 500px;
-    background-color: white;
-    display:flex;
-    flex-wrap:wrap;
-    gap:0px;
-}
-#box1{
-    width: 600px;
-    margin: 6px 60px;
-    background-color: white;
-    padding: 1px;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: space_between;
-  
-}
-#box2{
-    width: 500px;
-    background-color: white;
-    padding: 6px;
-align-items: center;
-    display:flex;
-    flex-wrap:wrap;
-    margin: 21px 60px;
-  
-}
+
+
+
+
+ 
