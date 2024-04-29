@@ -18,24 +18,23 @@ body{
 }
 .vinod{
     float:left;
-    width: 500px;
-    height: 600px;
-    unicode-bidi: isolate;
-    padding: 60px;
+    width: 460px;
+    height: 552px;
+    padding: 20px;
 
 }
 
 main{
-    width: 1600px;
-    height: 700px;
+    width: 1500px;
+    height: 600px;
     padding: 10px;
 }
 .img-info{
 float: right;
 align-items: center;
 justify-content: center;
-padding-top: 240px;
-padding-right: 250px;
+padding-top: 180px;
+padding-right: 420px;
 position: relative;
 justify-content: space-between;
 margin: 0 auto;
@@ -49,71 +48,19 @@ text-decoration: none;
         width: 100%;   
         width: 600px;  
         position: relative;
-        justify-content: space-between;
-   
-
-
+        justify-content: space-between;  
 
 }
 .img-info p{
         font-size: 26px;
         color: rgb(144, 207, 42);
         width: 100%;
-        width: 800px; 
+        width: 600px; 
         position: relative;
         justify-content: space-between;
 
 
 }
-
-
-
-
-
-
-
-@media(max-width: 768px){
-    .vinod{
-        float:left;
-        width: 500px;
-        height: 600px;
-        unicode-bidi: isolate;
-        padding: 60px;
-    }
-    
-    main{
-        width: 1600px;
-        height: 700px;
-        padding: 10px;
-    }
-    .img-info{
-    float: right;
-    align-items: center;
-    justify-content: center;
-    padding-top: 240px;
-    padding-right: 250px;
-    
-        
-    }
-    .img-info h1{    
-        font-size: 36px;
-            color: rgb(202, 19, 19);
-            width: 100%;   
-            width: 600px;  
-    
-    
-    }
-    .img-info p{
-            font-size: 26px;
-            color: rgb(177, 13, 35);
-            width: 100%;
-            width: 800px; 
-    
-    } 
-}
-
-
-
 
 li{
     list-style: none;
@@ -133,7 +80,7 @@ Header{
 .navbar{
     width: 100%;
     height: 60px;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -144,21 +91,25 @@ Header{
     font-size: 2.4rem;
     font-weight: bold;
     color: blue;
+margin-right: 24px;
 
 }
 .navbar .link{
     display: flex;
-    gap: 2rem;
+    gap: 2.4rem;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 .navbar .toggle_btn{
     color: darkred;
     font-size: 1.5rem;
     cursor: pointer;
     display: none;
+
 }
 .action_btn{
     background-color: rgb(210, 77, 228);
-    color: rgb(15, 15, 15);
+    color: rgb(24, 23, 23);
     padding: 0.6rem 2 rem;
     border: none;
     outline: none;
@@ -207,23 +158,25 @@ Header{
 }
 
 
-@media(max-width: 992px) {
+@media(max-width: 987px) {
     .navbar .link,
     .navbar .action_btn{
-        display: none;
+        display:none;
     }
     .navbar .toggle_btn{
         display: block;
     }
     .dropdown_menu{
         display: block;
+        left: 2rem;
+        width: unset;
     }
 
     .img-info{
         float: right;
         align-items: center;
         justify-content: center;
-        padding-top: 200px;
+        padding-top: 210px;
         padding-right: 250px;
         
             
@@ -233,16 +186,12 @@ Header{
             width: 20%;
             float: left;
             }
-        main{
-            width: 1200px;
-            height: 550px;
-            padding: 10px;
-        }
+
         .vinod{
             float:left;
             width: 400px;
-            height: 500px;
-            unicode-bidi: isolate;
+            height: 480px;
+
 
         }
         .img-info h1{
@@ -258,6 +207,14 @@ Header{
             color: rgb(73, 42, 207);
 
         }
+        main{
+            width: 1200px;
+            height: 600px;
+            padding: 10px;
+            float: left;
+    
+        }
+        
 }
 @media(max-width: 576px){
     .dropdown_menu{
@@ -269,8 +226,8 @@ Header{
         float: right;
     align-items: center;
     justify-content: center;
-    padding-top: 150px;
-    padding-right: 250px;
+    padding-top: 120px;
+    padding-right: 100px;
     }
     .images{
         padding-top: 24px;  
@@ -294,15 +251,16 @@ Header{
 }
 .vinod{
     float:left;
-    width: 300px;
-    height: 400px;
+    width: 320px;
+    height: 384px;
     unicode-bidi: isolate;
 
     }
     main{
-        width: 1000px;
+        width: 800px;
         height: 400px;
         padding: 10px;
+
     }
 }
 
