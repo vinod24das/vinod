@@ -4,12 +4,62 @@
     box-sizing: border-box;
     font-family: 'open sans' sans-serif;
 }
+
+
+
+
 body{
     height: 100vh;
     background-color: white;
     background-image: url('https://unsplash.com/photos/the-space-shuttle-is-flying-over-the-earth-WmbePYToF6c?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash');
     background-size: cover;
     background-position: center;
+
+}
+.vinod{
+    float:left;
+    width: 460px;
+    height: 552px;
+    padding: 20px;
+
+}
+
+main{
+    width: 1500px;
+    height: 600px;
+    padding: 10px;
+}
+.img-info{
+float: right;
+align-items: center;
+justify-content: center;
+padding-top: 180px;
+padding-right: 420px;
+position: relative;
+justify-content: space-between;
+margin: 0 auto;
+text-decoration: none;
+
+    
+}
+.img-info h1{    
+    font-size: 36px;
+        color: rgb(175, 202, 19);
+        width: 100%;   
+        width: 600px;  
+        position: relative;
+        justify-content: space-between;  
+
+}
+.img-info p{
+        font-size: 26px;
+        color: rgb(144, 207, 42);
+        width: 100%;
+        width: 600px; 
+        position: relative;
+        justify-content: space-between;
+
+
 }
 
 li{
@@ -30,7 +80,7 @@ Header{
 .navbar{
     width: 100%;
     height: 60px;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -41,21 +91,25 @@ Header{
     font-size: 2.4rem;
     font-weight: bold;
     color: blue;
+margin-right: 24px;
 
 }
 .navbar .link{
     display: flex;
-    gap: 2rem;
+    gap: 2.4rem;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 .navbar .toggle_btn{
     color: darkred;
     font-size: 1.5rem;
     cursor: pointer;
     display: none;
+
 }
 .action_btn{
     background-color: rgb(210, 77, 228);
-    color: rgb(15, 15, 15);
+    color: rgb(24, 23, 23);
     padding: 0.6rem 2 rem;
     border: none;
     outline: none;
@@ -103,59 +157,114 @@ Header{
     justify-content: center;
 }
 
-section#hero{
-    height: calc(100vh - 160px);
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    padding-left: 120px;
 
-}
-
-#hero h1{
-    font-size: 42px;
-    color: rgb(71, 98, 218);
-}
-span{
-    color: #023d6d;
-}
-
-#hero hr{
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 1 rem;
-}
-#hero p{
-    font-size: 28px;
-    color: black;
-}
-.images {
-    height:510px;
-    width:500px;
-    display: flex;
-    align-items: right;
-    position:absolute;
-    margin: -560px 800px;
-}
-
-
-@media(max-width: 992px) {
+@media(max-width: 987px) {
     .navbar .link,
     .navbar .action_btn{
-        display: none;
+        display:none;
     }
     .navbar .toggle_btn{
         display: block;
     }
     .dropdown_menu{
         display: block;
+        left: 2rem;
+        width: unset;
     }
+
+    .img-info{
+        float: right;
+        align-items: center;
+        justify-content: center;
+        padding-top: 210px;
+        padding-right: 250px;
+        
+            
+        }
+        .images{
+            padding-top: 24px;  
+            width: 20%;
+            float: left;
+            }
+
+        .vinod{
+            float:left;
+            width: 400px;
+            height: 480px;
+
+
+        }
+        .img-info h1{
+            width: 100%;   
+            width: 400px; 
+            font-size: 30px;
+            color: rgb(73, 42, 207);
+        }
+        .img-info p{
+            width: 100%;   
+            width: 550px; 
+            font-size: 28px;
+            color: rgb(73, 42, 207);
+
+        }
+        main{
+            width: 1200px;
+            height: 600px;
+            padding: 10px;
+            float: left;
+    
+        }
+        
 }
 @media(max-width: 576px){
     .dropdown_menu{
         left: 2rem;
         width: unset;
+    }
+
+    .img-info{
+        float: right;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    padding-right: 100px;
+    }
+    .images{
+        padding-top: 24px;  
+        width: 10%;
+        float: left;
+        }
+    .img-info h1{
+        width: 100%;   
+        width: 300px; 
+        font-size: 26px;
+        color: aqua;
+
+}
+
+.img-info p{
+    width: 100%;
+        width: 400px; 
+    font-size: 24px;
+    color: black;
+
+}
+.vinod{
+    float:left;
+    width: 320px;
+    height: 384px;
+    unicode-bidi: isolate;
+
+    }
+    main{
+        width: 800px;
+        height: 400px;
+        padding: 10px;
 
     }
 }
+
+
+
+
+ 
